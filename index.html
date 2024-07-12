@@ -753,20 +753,22 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form
+            <form class="php-email-form"
             action="https://formspree.io/f/xyzgzkdy"
             method="POST"
           >
-            <label>
-              Your email:
-              <input type="email" name="email">
-            </label>
-            <label>
-              Your message:
-              <textarea name="message"></textarea>
-            </label>
+        
+              <div class="form-group mt-3">
+              <input class="form-control" type="email" name="email" placeholder="Email">
+            </div>
+           
+            <div class="form-group mt-3">
+              <textarea name="message" class="form-control" rows="5" placeholder="Message"></textarea>
+            </div>
             <!-- your other form fields go here -->
+             <div class="text-center">
             <button type="submit">Send</button>
+          </div>
           </form>
 
           </div>
