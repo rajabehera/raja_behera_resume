@@ -1287,3 +1287,25 @@ section {
   font-size: 2em;
 }
 
+
+
+.sub-section {
+  margin: 0 10px 10px 15px;
+}
+.sub-section h3 {
+  font-size: 1.2em;
+  color: #006600;
+  margin: 10px 0 5px;
+}
+.details {
+  margin: 5px 0;
+}
+ .section h4{
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
